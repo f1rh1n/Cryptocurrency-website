@@ -1,0 +1,52 @@
+footer
+{
+	/* background-color:  #333333; */
+	font-family: 'Montserrat', sans-serif;
+}
+
+#footer-last-part
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+.author
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+}
+
+.author
+{
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+
+.copyright
+{
+	margin-bottom: 0;
+	margin-top: 8px;
+}
+
+.author > a
+{
+	transition: all 0.5s ease;
+}
+
+.author > a:hover
+{
+	cursor: pointer;
+	transform: scale(1.15);
+}
+
+#footer-last-part > p
+{
+	color: white;
+	font-size: 16px;
+}
